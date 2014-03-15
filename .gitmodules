@@ -1,0 +1,3 @@
+[submodule "projects/starlone.boardeditor"]
+	path = projects/starlone.boardeditor
+	url = https://github.com/starlone/starlone.boardeditor.git
