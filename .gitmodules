@@ -1,3 +1,6 @@
 [submodule "projects/starlone.boardeditor"]
 	path = projects/starlone.boardeditor
 	url = https://github.com/starlone/starlone.boardeditor.git
+[submodule "projects/starlone.batalhanaval"]
+	path = projects/starlone.batalhanaval
+	url = https://github.com/starlone/starlone.batalhanaval.git
