@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+
 <head>
     <title>Starlone</title>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <meta name="title" content="Starlone" />
     <meta itemprop="name" content="Starlone" />
@@ -14,96 +14,125 @@
     <meta itemprop="description" content="Esta é uma pagina pessoal de Starlone" />
     <meta id="meta-tag-description" property="og:description" content="Esta é uma pagina pessoal de Starlone" />
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="star.theme.css">
-
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <style>
         .jumbotron {
             background: none;
             text-align: center;
         }
-
-        .panel-body {
-            min-height: 80px;
-        }
-
     </style>
 
 </head>
+
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/">Starlone</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="#">Starlone</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre mim <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contato</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <nav class="navbar-right">
-                <ul class="nav navbar-nav star-menu">
-                    <li><a href="#about">Sobre mim</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="/contact">Contato</a></li>
-                </ul>
-            </nav><!--/.nav-collapse -->
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <div class="container">
-        <div id="about" class="jumbotron ">
-            <h1>Starlone</h1>
-            <p class="lead">Seja bem vindo. A página ainda está em construção, desculpe a bagunça.</p>
+        <div class="jumbotron">
+            <h1>Olá, sou Starlone</h1>
+            <p class="lead">Desenvolvedor de soluções em tecnologia</p>
+        </div>
+        <div id="about">
+            <h2>Sobre</h2>
+            <p class="lead">Desenvolvedor de software full stack. Crio soluções tanto para backend quanto
+                frontend. Trabalho com as linguagens Python, Java e JavaScript</p>
+            <p class="lead">Tenho experiência na construção de portais, intranets, sistemas de cadastro, construção de
+                indicadores utilizando business intelligence, geoprocessamento e chatbot</p>
+            <br>
         </div>
 
         <h2 id="projects" class="sub-header">Projetos</h2>
+        <p>Abaixo segue alguns projetos Open Source que criei</p>
 
         <div class="row">
             <div class="col-sm-4">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">Star Game Engine</div>
-                    <div class="panel-body">
-                        <p><a href="http://starlone.github.io/star.gameengine">Motor de jogo em HTML5</a></p>
+                <div class="card">
+                    <div class="card-header bg-primary text-white">Star Game Engine</div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <a href="http://starlone.github.io/star.gameengine">
+                                Motor de jogo em HTML5</a>
+                        </p>
                     </div>
-                    <ul class="nav nav-pills nav-justified">
-                        <li><a href="http://starlone.github.io/star.gameengine">Acesse</a></li>
-                        <li><a href="https://github.com/starlone/star.gameengine">Github</a></li>
-                    </ul>
+                    <div class="card-footer">
+                        <div class="row text-center">
+                            <div class="col"><a href="http://starlone.github.io/star.gameengine">Acesse</a></div>
+                            <div class="col"><a href="https://github.com/starlone/star.gameengine">Github</a></div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">Editor - Star Game Engine</div>
-                    <div class="panel-body">
-                        <p><a href="http://starlone.github.io/star.gameengine.editor">Editor web para criação de jogos utilizando Star Game Engine</a></p>
+                <div class="card">
+                    <div class="card-header bg-primary text-white">Editor - Star Game Engine</div>
+                    <div class="card-body">
+                        <p class="card-text"><a href="http://starlone.github.io/star.gameengine.editor">Editor web para
+                                criação de jogos
+                                utilizando Star Game Engine</a></p>
                     </div>
-                    <ul class="nav nav-pills nav-justified">
-                        <li><a href="http://starlone.github.io/star.gameengine.editor">Acesse</a></li>
-                        <li><a href="https://github.com/starlone/star.gameengine.editor">Github</a></li>
-                    </ul>
+                    <div class="card-footer">
+                        <div class="row text-center">
+                            <div class="col"><a href="http://starlone.github.io/star.gameengine.editor">Acesse</a></div>
+                            <div class="col"><a href="https://github.com/starlone/star.gameengine.editor">Github</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">Star Diagram Creater</div>
-                    <div class="panel-body">
-                        <p><a href="http://starlone.github.io/star.diagramcreater">Criador de Digramas</a></p>
+                <div class="card">
+                    <div class="card-header bg-primary text-white">Star Diagram Creater</div>
+                    <div class="card-body">
+                        <p class="card-text"><a href="http://starlone.github.io/star.diagramcreater">Criador de
+                                Digramas</a></p>
                     </div>
-                    <ul class="nav nav-pills nav-justified">
-                        <li><a href="http://starlone.github.io/star.diagramcreater">Acesse</a></li>
-                        <li><a href="https://github.com/starlone/star.diagramcreater">Github</a></li>
-                    </ul>
+                    <div class="card-footer">
+                        <div class="row text-center">
+                            <div class="col"><a href="http://starlone.github.io/star.diagramcreater">Acesse</a></div>
+                            <div class="col"><a href="https://github.com/starlone/star.diagramcreater">Github</a></div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
 
 </body>
 </html>
